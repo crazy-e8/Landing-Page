@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Spirax&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -73,8 +75,7 @@ button {
 }
 
 .upper img {
-  height: 15vw;
-  width: auto;
+  width: 600px;
   border-radius: 20px;
 }
 
@@ -90,13 +91,67 @@ button {
 
 .looks-section img {
   width: 250px;
-  border-radius: 30px;
   margin-bottom: 10px;
+  border-radius: 30px;
   border: 4px solid #3882f6;
-  box-shadow: 2px 4px 30px 2px;
 }
 
 .cards {
   display: flex;
   gap: 60px;
+}
+
+.quote-section {
+  padding: 50px 500px;
+  margin: 50px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.quote {
+  width: 50vw;
+  font-family: "Spirax", sans-serif;
+  font-size: 30px;
+}
+
+.quote-author {
+  font-size: 20px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.sign-up-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  display: flex;
+  padding: 25px;
+  background-color: #3882f6;
+  margin-bottom: 50px;
+  color: white;
+  gap: 300px;
+}
+
+.popup h3 {
+  align-self: flex-start;
+}
+
+.popup button {
+  border: 2px solid white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  color: white;
+  background-color: #1f2937;
+  width: 100%;
 }
